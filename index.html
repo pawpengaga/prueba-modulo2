@@ -21,13 +21,13 @@
             <a class="nav-link" href="#about">Sobre mí</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skills">Features</a>
+            <a class="nav-link" href="#skills">Habilidades</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Pricing</a>
+            <a class="nav-link" href="#portfolio">Portafolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Pricing</a>
+            <a class="nav-link" href="#contact">Contacto</a>
           </li>
           <li class="nav-item d-inline-block">
             <a href="https://github.com/pawpengaga" class="nav-link">
@@ -43,7 +43,7 @@
       </div>
     </div>
   </nav>
-  <main>
+  <main class="bg-white">
     <header id="about" class="container-custom py-5 d-flex row">
       <article class="col-6">
         <h1>Erick Rivera</h1>
@@ -55,7 +55,30 @@
         <img src="assets/img/perfil.png" alt="foto de perfil de erick rivera" class="w-100">
       </article>
     </header>
-    <section id="skills"></section>
+    <!-- Skills section -->
+    <section id="skills" class="container-custom py-5 d-flex row">
+      <div class="col-4">
+        <div class="skill-container text-center" id="tooltip1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Nivel de habilidad: Alto">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" class="w-50" />
+          <h4>Diseño UX/UI</h4>
+          <p>Diseño de interfaces y sistemas de diseño para aplicaciones web, abarcando todo el proceso desde el diseño hasta la implementación, usando tecnologías como Figma y SASS</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="skill-container text-center" id="tooltip2" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Nivel de habilidad: Alto">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" class="w-50" />
+          <h4>Programación Backend</h4>
+          <p>Uso del lenguaje de programación Ruby para crear librerías personalizadas para lógica de negocio, junto a su posterior uso como API REST a través de Rails.</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="skill-container text-center" id="tooltip3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Nivel de habilidad: Medio">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" class="w-50" />
+          <h4>Gestión de contenedores</h4>
+          <p>Uso de Docker y docker-compose para preparar aplicaciones desarrolladas por un equipo para su despliegue y uso, empleando los paquetes Linux adecuados.</p>
+        </div>
+      </div>
+    </section>
     <section id="portfolio"></section>
     <section id="contact"></section>
   </main>

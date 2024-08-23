@@ -1,2 +1,7 @@
-// Aqui va la interactividad
-console.log('Está conectado!')
+// Activacion de tooltips
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+
+$(document).ready(function(){
+  
+});
