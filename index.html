@@ -6,6 +6,7 @@
   <title>PORTAFOLIO - EVALUACION M2</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -49,7 +50,7 @@
         <h1>Erick Rivera</h1>
         <h3>Desarrollador Backend y Diseñador UX/UI</h3>
         <p>Mi nombre es <span class="fw-bold">Erick</span>, soy de Arica, Chile. Soy una persona que siempre está en búsqueda obtener nuevos aprendizajes. He hecho un salto profesional desde el <span class="fw-bold">diseño</span> hacia el <span class="fw-bold">desarrollo de software</span> con el objetivo de potenciar mi perfil y hasta ahora los resultados no me han decepcionado. Espero que podamos trabajar juntos en un futuro y sacar algo que sea de provecho para ambos.</p>
-        <a href="assets/doc/curriculum-erick.pdf" class="btn btn-custom-secondary" target="_blank">Descargar currículum</a>
+        <a href="assets/doc/curriculum-erick.pdf" class="btn btn-c btn-custom-secondary" target="_blank">Descargar currículum</a>
       </article>
       <article class="col-6 p-5 round">
         <img src="assets/img/perfil.png" alt="foto de perfil de erick rivera" class="w-100">
@@ -79,7 +80,145 @@
         </div>
       </div>
     </section>
-    <section id="portfolio"></section>
+    <!-- Portfolio section -->
+    <section id="portfolio" class="container-custom py-5 d-flex row">
+      <div class="row d-flex justify-content-evenly">
+        <!-- inicio de card -->
+        <div class="col-sm-12 col-md-6 col-xl-4 mb-5">
+
+          <div class="card">
+            <img id="workuno" src="assets/img/work1.jpg" class="card-img-top" alt="work1" >
+            <div class="card-body">
+              <h4 class="card-title fw-bold">UpConst (API REST)</h4>
+              <p class="card-text">Una aplicación fullstack para llevar registro de actividades en el tiempo. En colaboración con desarrolador frontend.</p>
+              <div class="d-flex flex-row justify-content-center gap-4 py-2 flex-wrap">
+                <i class="devicon-rails-plain colored display-5"></i>
+                <i class="devicon-postgresql-plain colored display-5"></i>
+                <i class="devicon-amazonwebservices-plain colored display-5"></i>
+              </div>
+              <div class="d-flex justify-content-center text-center gap-3 mt-4">
+                <a href="https://uptask-one.vercel.app/" class="btn light"><i class="fa-solid fa-link"></i> Probar</a>
+                <a href="https://github.com/pawpengaga/upconst-the-backend" class="btn light"><i class="fa-solid fa-code"></i> Ver codigo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- inicio de card -->
+        <div class="col-sm-12 col-md-6 col-xl-4 mb-5">
+          <div class="card">
+            <img id="workuno" src="assets/img/work2.jpg" class="card-img-top" alt="work1" >
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Object_Oriented_Game</h4>
+              <p class="card-text">Engine para historias interactivas por consola, aplicando la orientación a objetos.</p>
+              <div class="d-flex flex-row justify-content-center gap-4 py-2 flex-wrap">
+                <i class="devicon-ruby-plain colored display-5"></i>
+              </div>
+              <div class="d-flex justify-content-center text-center gap-3 mt-4">
+                <a href="https://replit.com/@pawpengaga/object-oriented-game#main.rb" class="btn light"><i class="fa-solid fa-link"></i> Probar</a>
+                <a href="https://github.com/pawpengaga/object-oriented-game" class="btn light"><i class="fa-solid fa-code"></i> Ver codigo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- inicio de card -->
+        <div class="col-sm-12 col-md-6 col-xl-4 mb-5">
+          <div class="card">
+            <img id="workuno" src="assets/img/work3.jpg" class="card-img-top" alt="work1" >
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Bündell Att</h4>
+              <p class="card-text">Aplicación empresarial con capacidad de gestión de usuarios y postulaciones.</p>
+              <div class="d-flex flex-row justify-content-center gap-4 py-2 flex-wrap">
+                <i class="devicon-rails-plain colored display-5"></i>
+                <i class="devicon-postgresql-plain colored display-5"></i>
+                <i class="devicon-bootstrap-plain colored display-5"></i>
+                <i class="devicon-javascript-plain colored display-5"></i>
+              </div>
+              <div class="d-flex justify-content-center text-center gap-3 mt-4">
+                <a href="https://bundelatt.onrender.com/" class="btn light"><i class="fa-solid fa-link"></i> Probar</a>
+                <a href="https://github.com/pawpengaga/bundelpencils/" class="btn light"><i class="fa-solid fa-code"></i> Ver codigo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- inicio de card -->
+        <div class="col-sm-12 col-md-6 col-xl-4 mb-5">
+          <div class="card">
+            <img id="workuno" src="assets/img/work4.jpg" class="card-img-top" alt="work1" >
+            <div class="card-body">
+              <h4 class="card-title fw-bold">REST API Creator/Consumer</h4>
+              <p class="card-text">API REST que envía información a frontend que la consume.</p>
+              <div class="d-flex flex-row justify-content-center gap-4 py-2 flex-wrap">
+                <i class="devicon-rails-plain colored display-5"></i>
+                <i class="devicon-postgresql-plain colored display-5"></i>
+                <i class="devicon-javascript-plain colored display-5"></i>
+              </div>
+              <div class="d-flex justify-content-center text-center gap-3 mt-4">
+                <a href="https://pawpengaga.github.io/pro-apiconsumer/" class="btn light"><i class="fa-solid fa-link"></i> Probar</a>
+                <a href="https://github.com/pawpengaga/pro-apiconsumer" class="btn light"><i class="fa-solid fa-code"></i> Ver codigo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- inicio de card -->
+        <div class="col-sm-12 col-md-6 col-xl-4 mb-5">
+          <div class="card">
+            <img id="workuno" src="assets/img/work5.jpg" class="card-img-top" alt="work1" >
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Couppon</h4>
+              <p class="card-text">Funcionalidad de carrito de compras con múltiples parámetros.</p>
+              <div class="d-flex flex-row justify-content-center gap-4 py-2 flex-wrap">
+                <i class="devicon-html5-plain colored display-5"></i>
+                <i class="devicon-bootstrap-plain colored display-5"></i>
+                <i class="devicon-javascript-plain colored display-5"></i>
+              </div>
+              <div class="d-flex justify-content-center text-center gap-3 mt-4">
+                <a href="https://pawpengaga.github.io/web-cuppon-js/" class="btn light"><i class="fa-solid fa-link"></i> Probar</a>
+                <a href="https://github.com/pawpengaga/web-cuppon-js" class="btn light"><i class="fa-solid fa-code"></i> Ver codigo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- inicio de card -->
+        <div class="col-sm-12 col-md-6 col-xl-4 mb-5">
+          <div class="card">
+            <img id="workuno" src="assets/img/work6.png" class="card-img-top" alt="work1" >
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Animations Page</h4>
+              <p class="card-text">Motion graphics implementado en web.</p>
+              <div class="d-flex flex-row justify-content-center gap-4 py-2 flex-wrap">
+                <i class="devicon-aftereffects-plain colored display-5"></i>
+                <i class="devicon-illustrator-plain colored display-5"></i>
+                <i class="devicon-javascript-plain colored display-5"></i>
+              </div>
+              <div class="d-flex justify-content-center text-center gap-3 mt-4">
+                <a href="https://pawpengaga.github.io/mypageanima/" class="btn light"><i class="fa-solid fa-link"></i> Probar</a>
+                <a href="https://github.com/pawpengaga/mypageanima" class="btn light"><i class="fa-solid fa-code"></i> Ver codigo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- inicio de card -->
+        <div class="col-sm-12 col-md-6 col-xl-4 mb-5">
+          <div class="card">
+            <img id="workuno" src="assets/img/work7.jpg" class="card-img-top" alt="work1" >
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Blockbuster Clone</h4>
+              <p class="card-text">Aplicación fullstack que obtiene registros a partir de la conexión con la <a href="https://www.omdbapi.com/">OMBDapi</a> por medio de una librería personalizada.</p>
+              <div class="d-flex flex-row justify-content-center gap-4 py-2 flex-wrap">
+                <i class="devicon-rails-plain colored display-5"></i>
+                <i class="devicon-postgresql-plain colored display-5"></i>
+                <i class="devicon-ruby-plain colored display-5"></i>
+              </div>
+              <div class="d-flex justify-content-center text-center gap-3 mt-4">
+                <a href="https://blockbusterclone.onrender.com/" class="btn light"><i class="fa-solid fa-link"></i> Probar</a>
+                <a href="https://github.com/pawpengaga/blockbusterclone" class="btn light"><i class="fa-solid fa-code"></i> Ver codigo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
     <section id="contact"></section>
   </main>
   <footer>

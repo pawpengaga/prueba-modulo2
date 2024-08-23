@@ -8,6 +8,7 @@
   --primary-300: rgb(238, 38, 104);
   --secondary-300: rgb(48, 236, 180);
   --dark: #222;
+  --dark-50: #22222270;
   --master-margin: 9.3rem;
 }
 
@@ -47,8 +48,9 @@ body {
 }
 
 /* Boton */
-.btn {
+.btn-c {
   color: white !important;
+  font-weight: 600;
 }
 .btn-custom-primary{
   background-color: var(--primary-500);
@@ -73,3 +75,12 @@ body {
 /* Hero section */
 
 /* Skills section */
+
+/* Porfolio section */
+
+.card .card-body div a.btn {
+  border: 1px solid var(--dark-50) !important;
+}
+.card .card-body div a.btn:hover {
+  background-color: rgba(207, 207, 207, 0.308);
+}
