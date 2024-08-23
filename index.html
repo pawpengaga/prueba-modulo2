@@ -9,45 +9,52 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <nav>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto gap-5">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">Sobre mí</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Pricing</a>
-            </li>
-            <li class="nav-item d-inline-block">
-              <a href="https://github.com/pawpengaga" class="nav-link">
-                <i class="fa-brands fa-github"></i>
-              </a>
-            </li>
-            <li class="nav-item d-inline-block">
-              <a href="https://www.linkedin.com/in/erick-rivera-267625196/" class="nav-link">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary container-custom">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto gap-5 ">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Pricing</a>
+          </li>
+          <li class="nav-item d-inline-block">
+            <a href="https://github.com/pawpengaga" class="nav-link">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li class="nav-item d-inline-block">
+            <a href="https://www.linkedin.com/in/erick-rivera-267625196/" class="nav-link">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
   </nav>
   <main>
-    <section id="about">
-      <h1>Sobre mi</h1>
-    </section>
+    <header id="about" class="container-custom py-5 d-flex row">
+      <article class="col-6">
+        <h1>Erick Rivera</h1>
+        <h3>Desarrollador Backend y Diseñador UX/UI</h3>
+        <p>Mi nombre es <span class="fw-bold">Erick</span>, soy de Arica, Chile. Soy una persona que siempre está en búsqueda obtener nuevos aprendizajes. He hecho un salto profesional desde el <span class="fw-bold">diseño</span> hacia el <span class="fw-bold">desarrollo de software</span> con el objetivo de potenciar mi perfil y hasta ahora los resultados no me han decepcionado. Espero que podamos trabajar juntos en un futuro y sacar algo que sea de provecho para ambos.</p>
+        <a href="assets/doc/curriculum-erick.pdf" class="btn btn-custom-secondary" target="_blank">Descargar currículum</a>
+      </article>
+      <article class="col-6 p-5 round">
+        <img src="assets/img/perfil.png" alt="foto de perfil de erick rivera" class="w-100">
+      </article>
+    </header>
     <section id="skills"></section>
     <section id="portfolio"></section>
     <section id="contact"></section>

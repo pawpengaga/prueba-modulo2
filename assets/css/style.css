@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
+/* Estilos generales */
+
+:root{
+  --primary-500: rgb(216, 11, 79);
+  --secondary-500: rgb(33, 218, 162);
+  --primary-300: rgb(238, 38, 104);
+  --secondary-300: rgb(48, 236, 180);
+  --dark: #222;
+  --master-margin: 9.3rem;
+}
+
 body {
   background-color: #FBDA61;
   background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
@@ -7,7 +18,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-
+  color: var(--dark);
   max-width: 80rem;
   margin: 0 auto;
   padding: 0;
@@ -28,3 +39,34 @@ body {
   font-weight: 600;
   font-style: normal;
 }
+
+.container-custom{
+  padding-left: var(--master-margin);
+  padding-right: var(--master-margin);
+}
+
+/* Boton */
+.btn {
+  color: white !important;
+}
+.btn-custom-primary{
+  background-color: var(--primary-500);
+  border: 1px solid var(--primary-300);
+}
+.btn-custom-primary:hover{
+  background-color: var(--primary-300);
+  border: 1px solid var(--primary-300);
+}
+.btn-custom-primary:active{
+  border: 1px solid white !important;
+}
+.btn-custom-secondary{
+  background-color: var(--secondary-500);
+  border: 1px solid var(--secondary-300);
+}
+.btn-custom-secondary:hover{
+  background-color: var(--secondary-300);
+  border: 1px solid var(--secondary-300);
+}
+
+/* Hero section */
