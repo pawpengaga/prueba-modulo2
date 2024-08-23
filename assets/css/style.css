@@ -10,6 +10,7 @@
   --dark: #222;
   --dark-50: #22222270;
   --master-margin: 9.3rem;
+  --smol-margin: 4rem;
 }
 
 body {
@@ -74,6 +75,13 @@ body {
 
 /* Hero section */
 
+header article img {
+  display: block;
+  width: 70%;
+  margin: auto auto;
+  box-shadow: 0 0 0 10px #F8F9FA;
+}
+
 /* Skills section */
 
 /* Porfolio section */
@@ -84,3 +92,31 @@ body {
 .card .card-body div a.btn:hover {
   background-color: rgba(207, 207, 207, 0.308);
 }
+#contact form {
+  width: 60%;
+}
+
+/* Media */
+
+@media (max-width: 768px){
+  .container-custom{
+    padding-left: var(--smol-margin);
+    padding-right: var(--smol-margin);
+  }
+  #contact form {
+    width: 100%;
+  }
+  h1, h2, h3, h4, h6{
+    display: block;
+    margin: auto auto;
+    text-align: center;
+  }
+
+  h1{
+    margin-bottom: 2rem;
+  }
+  header article a.btn-custom-secondary{
+    margin: auto auto;
+  }
+}
+

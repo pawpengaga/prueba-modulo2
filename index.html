@@ -11,7 +11,7 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary container-custom">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary container-custom sticky-top">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -45,49 +45,57 @@
     </div>
   </nav>
   <main class="bg-white">
-    <header id="about" class="container-custom py-5 d-flex row">
-      <article class="col-6">
+    <header id="about" class="container-custom py-5 d-flex flex-column flex-md-row">
+      <article class="col-12 col-md-6 d-flex flex-column align-items-start">
         <h1>Erick Rivera</h1>
-        <h3>Desarrollador Backend y Diseñador UX/UI</h3>
-        <p>Mi nombre es <span class="fw-bold">Erick</span>, soy de Arica, Chile. Soy una persona que siempre está en búsqueda obtener nuevos aprendizajes. He hecho un salto profesional desde el <span class="fw-bold">diseño</span> hacia el <span class="fw-bold">desarrollo de software</span> con el objetivo de potenciar mi perfil y hasta ahora los resultados no me han decepcionado. Espero que podamos trabajar juntos en un futuro y sacar algo que sea de provecho para ambos.</p>
+        <h6>Desarrollador Backend y Diseñador UX/UI</h6>
+        <div class="d-md-none d-block my-5"><img src="assets/img/perfil.png" alt="foto de perfil de Erick Rivera" class="mb-3 rounded-circle w-50 my-auto"></div>
+        <p>Mi nombre es <span class="fw-bold">Erick</span>, soy de Arica, Chile. Soy una persona que siempre está en búsqueda de obtener nuevos aprendizajes. He hecho un salto profesional desde el <span class="fw-bold">diseño</span> hacia el <span class="fw-bold">desarrollo de software</span> con el objetivo de potenciar mi perfil y hasta ahora los resultados no me han decepcionado. Espero que podamos trabajar juntos en un futuro y sacar algo que sea de provecho para ambos.</p>
         <a href="assets/doc/curriculum-erick.pdf" class="btn btn-c btn-custom-secondary" target="_blank">Descargar currículum</a>
       </article>
-      <article class="col-6 p-5 round">
-        <img src="assets/img/perfil.png" alt="foto de perfil de erick rivera" class="w-100">
+      <article class="col-12 col-md-6 d-none d-md-block my-auto d-flex align-items-center justify-content-center">
+        <img src="assets/img/perfil.png" alt="foto de perfil de Erick Rivera" class="rounded-circle">
       </article>
     </header>
+    <hr class="w-50 mx-auto" />
     <!-- Skills section -->
     <section id="skills" class="container-custom py-5 d-flex row">
-      <div class="col-4">
-        <div class="skill-container text-center" id="tooltip1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Nivel de habilidad: Alto">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" class="w-50" />
+      <h2 class="py-4 text-center display-4 mb-4">Habilidades</h2>
+      <div class="col-sm-12 col-md-6 col-xl-4 mb-5">
+        <div class="skill-container text-center d-flex flex-column gap-4" id="tooltip1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Nivel de habilidad: Alto">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" class="w-50 d-block my-auto mx-auto" />
           <h4>Diseño UX/UI</h4>
           <p>Diseño de interfaces y sistemas de diseño para aplicaciones web, abarcando todo el proceso desde el diseño hasta la implementación, usando tecnologías como Figma y SASS</p>
         </div>
       </div>
-      <div class="col-4">
-        <div class="skill-container text-center" id="tooltip2" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Nivel de habilidad: Alto">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" class="w-50" />
+      <div class="col-sm-12 col-md-6 col-xl-4 mb-5">
+        <div class="skill-container text-center d-flex flex-column gap-4" id="tooltip2" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Nivel de habilidad: Alto">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" class="w-50 d-block my-auto mx-auto" />
           <h4>Programación Backend</h4>
           <p>Uso del lenguaje de programación Ruby para crear librerías personalizadas para lógica de negocio, junto a su posterior uso como API REST a través de Rails.</p>
         </div>
       </div>
-      <div class="col-4">
-        <div class="skill-container text-center" id="tooltip3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Nivel de habilidad: Medio">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" class="w-50" />
+      <div class="col-sm-12 col-md-6 col-xl-4 mb-5">
+        <div class="skill-container text-center d-flex flex-column gap-4" id="tooltip3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Nivel de habilidad: Medio">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" class="w-50 d-block my-auto mx-auto" />
           <h4>Gestión de contenedores</h4>
           <p>Uso de Docker y docker-compose para preparar aplicaciones desarrolladas por un equipo para su despliegue y uso, empleando los paquetes Linux adecuados.</p>
         </div>
       </div>
     </section>
+    <hr class="w-50 mx-auto" />
     <!-- Portfolio section -->
     <section id="portfolio" class="container-custom py-5 d-flex row">
-      <h2 class="py-4 text-center">Mis trabajos</h2>
+      <h2 class="py-4 text-center display-4 mb-4">Portafolio</h2>
       <div class="row d-flex justify-content-evenly">
+        <!-- Contenido será generado por javascript aqui -->
+    
       </div>
     </section>
+    <hr class="w-50 mx-auto" />
     <section id="contact" class="container-custom py-5 d-flex row">
-      <form class="w-50 mx-auto">
+      <h2 class="py-4 text-center display-4 display-4">Contacto</h2>
+      <form class="mx-auto">
         <div class="mb-3">
           <label for="exampleInputName" class="form-label">Asunto</label>
           <input type="text" class="form-control" id="exampleInputName" placeholder="Cualquier asunto">
@@ -108,7 +116,7 @@
       
     </section>
   </main>
-  <footer class="container-custom py-4 d-flex row bg-dark text-white text-center">
+  <footer class="container-custom py-4 d-flex row bg-dark text-white text-center w-100 mx-auto">
     <span>Erick Rivera - 2024</span>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
